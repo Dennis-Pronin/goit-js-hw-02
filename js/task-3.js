@@ -1,6 +1,6 @@
 function checkForSpam(message) {
   const messageLower = message.toLowerCase();
-  return imessageLower.includes("spam") || messageLower.includes("sale")
+  return messageLower.includes("spam") || messageLower.includes("sale")
     ? true
     : false;
 }
